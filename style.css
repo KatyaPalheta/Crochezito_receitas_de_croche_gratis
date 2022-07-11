@@ -66,6 +66,9 @@ h2{
 	width: 100%;
 	margin: 0 auto;
 	padding: 10px 0;
+	display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .receita img {
 	height: 200px;
