@@ -1,0 +1,124 @@
+body{
+	font-family: 'Arvo', serif;
+}
+header{
+	background: rgb(250, 230, 233);
+	padding: 20px;
+}
+.cabecario{
+	position: relative;
+	width: 80%;
+	margin: 0 auto;
+}
+header h1{
+	display: inline;
+}
+nav{
+	position: absolute;
+	top:125px;
+	right: 0;
+}
+nav li{
+	display: inline;
+	margin: 0 0 0 15px;
+}
+nav a{
+	text-transform: uppercase;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+/*main*/
+
+.banner{
+	width: 100%;
+}
+
+.artigo{
+	width: 80%;
+	margin: 0 auto;
+	padding: 30px;
+}
+.fotoartigo1{
+	float: left;
+	height: 200px;
+	margin: 0 20px 0 0;
+	border-radius: 10px;
+}
+.fotoartigo2{
+	float: right;
+	height: 200px;
+	margin: 0 20px 0 0;
+	border-radius: 10px;
+	
+}
+
+h2{
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	padding: 40px;
+	clear: left, right;
+}
+.receita{
+	width: 100%;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+.receita img {
+	height: 200px;
+	width: auto;
+	border-radius: 20px;
+	margin: 10px;
+	
+}
+.receita li{
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	width: 250px;
+	padding: 10px;
+	border: 3px solid pink;
+	border-radius: 20px;
+	margin: 20px;
+}
+.receita li:hover{
+	border: 6px solid pink;
+	background: rgba(128, 128, 128, 0.158);
+	transition: 1s background;
+}
+.receita .titulo{
+	font-weight: bold;
+	padding: 15px;
+	font-size: 20px;
+}
+
+
+footer{
+	text-align: center;
+	color:aliceblue;
+	padding: 20px 0;
+	background: url(lace-gb539e6c44_640.jpg);
+}
+footer p{
+	background: gray;
+}
+
+@media screen and (max-width:480px){
+	.cabecario {
+		width: 90%;
+	}
+	nav a{
+		font-size: 12px;
+	}
+	nav {
+		position: static;
+	}
+	.receita li{
+		display: block;
+		width: 80%;
+		margin: 20px;
+	}
+}
