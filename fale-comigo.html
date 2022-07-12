@@ -12,6 +12,49 @@
 <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <header>
+        <div class="cabecario">
+            <h1>
+                <img src="logo.png" alt="Logo da Loja Crochezito">
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="receitas.html">Receitas</a></li>
+                    <li><a href="fale-comigo.html">Fale Comigo</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h2>Fale comigo</h2>
+        <div class="formulario">
+            <form>
+                <label for="nome">Nome e Sobrenome</label>
+                <input type="text" id="nome" class="input-form" placeholder="Nome completo" required>
+                <label for="email">E-mail</label>
+                <input type="text" id="email" class="input-form" placeholder="email@dominio.com" required>
+                <label for="telefone">Telefone com WhatsApp</label>
+                <input type="text" id="telefone" class="input-form" placeholder="(xx)xxxxx-xxxx" required>
+                <label for="experiencia">Qual sua experiência com crochet?</label>
+                <select name="nivel" id="experiencia">
+                    <option>Iniciante - Estou aprendendo</option>
+                    <option>Experiente - Faço croche há alguns anos</option>
+                    <option>Profissional - Domino a técnica e consigo uma renda extra</option>
+                </select>
+                <label for="mensagem">Deixe sua mensagem </label>
+                    <textarea rows="10" id="mensagem"></textarea class="input-padrao" required>
+                <label class="checkbox">Gostaria de receber aviso de receitas novas?<input type="checkbox" checked></label>
+                <label class="checkbox">Gostaria de receber aviso lives e promoções de parceitos?<input type="checkbox" checked></label>
+                <input class="enviar" type="submit" value="Enviar Mensagem">
+                <p>Obrigada por enviar me enviar uma mensagem, assim que possivel responderei atentamente.</p>
+               </form>
+        </div>
+          
+    </main>
+    <footer>
+        <img src="logocolorido.png" alt="Logomarca Crochezito">
+        <p class="copyright" >&copy; Copyright Crochezito - 2022</p>
+    </footer>
 </body>
 </html>

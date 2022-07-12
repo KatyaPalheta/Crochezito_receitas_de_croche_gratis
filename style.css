@@ -97,8 +97,6 @@ h2{
 	padding: 15px;
 	font-size: 20px;
 }
-
-
 footer{
 	text-align: center;
 	color:aliceblue;
@@ -108,7 +106,53 @@ footer{
 footer p{
 	background: gray;
 }
+.formulario{
+	position: relative;
+	margin:auto
+	max-width: 50%;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+	text-align: center;
+	position: relative;
+}
+label{
+	display: block;
+	padding: 20px 0 5px 0;
+}
+.input-form{
+	width: 50%;
+	padding: 5px;
+}
+textarea{
+	width: 50%;
+	padding: 5px;
+}
+.enviar{
+	font-family: 'Arvo', serif;
+	font-size: 20px;
+	background: rgb(250, 230, 233);
+	border: 0px solid pink;
+	border-radius: 5px;
+	margin: 20px;
+	padding: 10px;
+	transition: 1s;
+}
+.enviar:hover{
+	background: gray;
+}
 
+.enviar:active{
+	color: pink;
+	transition: 0s;
+}
+
+form p{
+	font-size: 12px;
+	padding: 5px;
+}
 @media screen and (max-width:480px){
 	.cabecario {
 		width: 90%;
