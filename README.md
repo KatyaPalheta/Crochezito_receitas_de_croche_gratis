@@ -28,12 +28,12 @@ Os usuários devem ser capazes de:
 
 ### Captura de tela
 
-![Resultado final](/assets/images/resultado.png)
+![Resultado final]()
 
 
 ### Links
 
-- URL do site ao vivo: (<https://formulario-assinatura-trial-html-css-js.vercel.app/>)
+- URL do site ao vivo: (<>)
 
 ## Meu processo
 
@@ -45,7 +45,6 @@ Demorei cerca de 24h de trabalho para concluir o desafio
 - Propriedades personalizadas de CSS
 - Flexbox
 - Grade CSS
-- JavaCript
 
 ### O que eu aprendi
 
