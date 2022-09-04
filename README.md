@@ -21,10 +21,10 @@ Esse é o projeto final do curso HTML e CSS da Alura
 
 Os usuários devem ser capazes de:
 
-- Veja os estados de foco para todos os elementos interativos na página
-- Receba uma mensagem de erro quando o `form` for enviado se:
-  - Qualquer campo `input` está vazio. A mensagem para este erro deve dizer *"[Nome do campo] não pode ser vazio"*
-  - O endereço de e-mail não está formatado corretamente (ou seja, o endereço de e-mail correto deve ter esta estrutura: `name@host.tld`). A mensagem para este erro deve dizer *"Parece que isso não é um email"*
+-Visitar as paginas referentes aos links no menu do site
+-acessar as receitas de croche clicando no card 
+- vizualizar o site adequadamente em relação ao tamanho de tela
+ 
 
 ### Captura de tela
 
