@@ -1,4 +1,6 @@
-# PÁGINA BARBEARIA ALURA
+# PÁGINA CROCHEZITO
+
+Receitas grátis de crochê
 
 ## Índice
 
@@ -22,18 +24,18 @@ Esse é o projeto final do curso HTML e CSS da Alura
 Os usuários devem ser capazes de:
 
 -Visitar as paginas referentes aos links no menu do site
--acessar as receitas de croche clicando no card 
-- vizualizar o site adequadamente em relação ao tamanho de tela
+-Acessar as receitas de croche clicando no card 
  
 
 ### Captura de tela
 
-![Resultado final]()
+![Resultado final](https://user-images.githubusercontent.com/109077065/188338920-b3e49347-e908-4fa0-be8b-e1406593cae7.png)
+![receitas](https://user-images.githubusercontent.com/109077065/188338923-8fb1fbf0-00c3-4c05-aa31-c2a6a315ea45.png)
 
 
 ### Links
 
-- URL do site ao vivo: (<>)
+- URL do site ao vivo: (<https://dulcet-kitten-f9de54.netlify.app/>)
 
 ## Meu processo
 
@@ -48,11 +50,11 @@ Demorei cerca de 24h de trabalho para concluir o desafio
 
 ### O que eu aprendi
 
-Aprendi sobre mensagens de validação e adição de class pelo Javascript para personalização das mensagens de erro
+Aprendi sobre o uso de grid e flex box, aplicando o conhecimento adquirido ao longo do curso de html e css ministrado pelo professor Pedro Marins
 
 ### Desenvolvimento contínuo
 
-Para o futuro vou estudar mais a respeito de mensagens de validação e aplicar em novos projetos
+Para o futuro vou estudar mais sobre css avançado
 
 ## Autor
 
